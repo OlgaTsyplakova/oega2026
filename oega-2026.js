@@ -1,4 +1,4 @@
-const DB = 'https://DEINE-FIREBASE-URL.firebaseio.com/state';
+const DB = 'https://suisse-public-2026-default-rtdb.firebaseio.com/oega-state';
 
 function save(key, value) {
   fetch(`${DB}/${key}.json`, {
